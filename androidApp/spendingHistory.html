@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Home</title>
+    <title>Spending History</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--===============================================================================================-->
@@ -21,6 +21,7 @@
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <!--===============================================================================================-->
     <link rel="stylesheet" type="text/css" href="buttonCss.css">
+
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-fixed-top sticky" role='navigation'>
@@ -30,14 +31,14 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
-                <li class="nav-item active">
+                <li class="nav-item">
                     <a class="nav-link" href="index2.html">Home </a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a class="nav-link" href="spendingHistory.html">Monitor</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="addFriend.html"><span class="sr-only">(current)</span>Topup</a>
+                    <a class="nav-link" href="spendingHistory.html"><span class="sr-only">(current)</span>Topup</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="personalDetails.html">Receipts</a>
@@ -53,39 +54,31 @@
             <div class="wrap-contact2">
                 <form class="contact2-form validate-form">
                     <span class="contact2-form-title">
-                        SeQR
+                        Spending History
                     </span>
 
                     <div class="container-contact2-form-btn">
-                        <h2> Balance </h2>
+                        <h2> Jake's balance</h2>
                     </div>
 
                     <div class="container-contact2-form-btn">
-                        <h4>$19890.91</h4>
+                        <h4>$500.60</h4>
                     </div>
 
 
                     <div class="container-contact2-form-btn" id="aboutSeQR">
-                        <h2> Monitored Wallets </h2>
+                        <h2> Past Transactions </h2>
                     </div>
 
+
                     <div class="card">
-                        <div class="card-header">
-                            $500.60
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Jake</h5>
-                            <p class="card-text">Jake last spent $50.01 at Lune Croissant</p>
-                            <div class="container-contact2-form-btn">
-                                <div class="wrap-contact2-form-btn">
-                                    <div class="contact2-form-bgbtn"></div>
-                                    <button class="contact2-form-btn">
-                                        <a href="spendingHistory.html">History</a>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Lune Croissant: $50.60</li>
+                            <li class="list-group-item">Royal Nut Company: $133.66</li>
+                            <li class="list-group-item">Nissan: $39990.00</li>
+                        </ul>
                     </div>
+
                 </form>
             </div>
         </div>
